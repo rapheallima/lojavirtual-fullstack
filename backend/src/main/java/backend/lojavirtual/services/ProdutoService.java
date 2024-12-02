@@ -3,12 +3,12 @@ package backend.lojavirtual.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import backend.lojavirtual.model.Produto;
 import backend.lojavirtual.repository.ProdutoRepository;
-import jakarta.persistence.Entity;
 
-@Entity
+@Service
 public class ProdutoService {
 
 	@Autowired
