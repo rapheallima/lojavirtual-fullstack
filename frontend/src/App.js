@@ -1,11 +1,10 @@
-
-
+import Home from './pages/Home';
 
 function App() {
   return (
-   <div>
-    <h1>Loja Virtual</h1>
-   </div>
+    <div>
+      <Home />
+    </div>
   );
 }
 
